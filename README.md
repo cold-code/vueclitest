@@ -16,10 +16,10 @@
 1.新建路由步骤：（1）.src=>components文件夹下新建xx.vue文件;  
               （2）.src=>router文件夹下index.js文件内进行修改，新增import xx form '@/components/xx'路径引入;  
               （3）.src=>router文件夹下index.js文件内进行修改，routes数组内新增路由对象，格式为下：  
-                `{  
-                    path: '/Hi',  
-                    name: 'Hi',  
-                    component: Hi  
-                   }  `
+    {  
+      path: '/Hi',  
+      name: 'Hi',  
+      component: Hi  
+    }
                  
           
