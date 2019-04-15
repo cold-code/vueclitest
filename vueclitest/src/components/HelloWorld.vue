@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Mine GitHub,I am Cold-code'
+      msg: 'Welcome to My Vue.js App,I am Coldcode'
     }
   }
 }
