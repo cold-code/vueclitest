@@ -20,7 +20,7 @@
                 path: '/Hi',  
                 name: 'Hi',  
                 component: Hi  
-              }
+              }  
 2.新建子路由步骤:（1）.src=>components文件夹下新建xx.vue文件;    
                （2）.src=>router文件夹下index.js文件内进行修改，新增import xx form '@/components/xx/xx'路径引入;   
                （3）.src=>router文件夹下index.js文件内进行修改，routes数组内父级页面对象内新增children数组：  
