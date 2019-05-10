@@ -25,12 +25,12 @@ export default new Router({
         },
         {
           path: 'hi1',
-          name: 'Hello/Hi/Hi1',
+          name: 'Hi1',
           component: Hi1
         },
         {
           path: 'hi2',
-          name: 'Hello/Hi/Hi2',
+          name: 'Hi2',
           component: Hi2
         }
       ]
