@@ -7,6 +7,7 @@
       <router-link to="/Hi/Hi1" >Hi1</router-link> |
       <router-link to="/Hi/Hi2" >Hi2</router-link>
     </div>
+    <p>{{ $route.name }}</p>
     <router-view/>
   </div>
 </template>

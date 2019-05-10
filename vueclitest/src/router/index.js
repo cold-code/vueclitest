@@ -16,19 +16,21 @@ export default new Router({
     },
     {
       path: '/Hi',
-      name: 'Hi',
       component: Hi,
       children: [
         {
           path: '/',
+          name: 'Hello/Hi',
           component: Hi
         },
         {
           path: 'hi1',
+          name: 'Hello/Hi/Hi1',
           component: Hi1
         },
         {
           path: 'hi2',
+          name: 'Hello/Hi/Hi2',
           component: Hi2
         }
       ]
