@@ -4,7 +4,7 @@
     <div>
       <router-link to="/" >首页</router-link> |
       <router-link to="/Hi">Hi页面</router-link> |
-      <router-link :to="{name:'Hi1',params:{username:'Coldcode',id:'817'}}" >Hi1</router-link> |
+      <router-link :to="{name:'Hi1',params:{username:'Coldcode',id:'627'}}" >Hi1</router-link> |
       <router-link to="/Hi/Hi2" >Hi2</router-link>
     </div>
     <p>{{ $route.name }}</p>
